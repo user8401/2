@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+    
+    
+    width: 100%;
+    
+}
+
+ .container .card{
+    
+    background-color: antiquewhite;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+   
+}
+.card{
+    margin-top: 50px;
+}
+.container .card .field{
+    width: 90%;
+}
+.send button{
+    margin:10px;
+}

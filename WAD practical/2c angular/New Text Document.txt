@@ -1,0 +1,13 @@
+install node js
+npm install -g @angular/cli
+
+ng new student
+cd student
+ng g c register
+ng g c login
+ng g c showuser
+ng g c navbar
+ng g c home
+
+ng add @angular/material
+

@@ -1,0 +1,21 @@
+install docker
+
+docker -v
+docker images
+docker ps
+docker pull openjdk
+docker images
+docker run --name JAVA -it -d openjdk
+docker ps
+docker exec -it JAVA jshell
+System.out.println("Welcome to Practical");
+int a=10
+int b=20
+System.out.println(a+b);
+/exit
+docker ps
+docker stop containerid
+docker container rm containerid
+docker ps
+docker images
+docker image prune

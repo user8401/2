@@ -1,0 +1,32 @@
+Go to GitHub (https://github.com) and create an account if you don't have one already.
+
+Once you're logged in, click on the "+" sign at the top right corner of the GitHub homepage and select "New repository."
+
+Fill in the repository name, choose whether it should be public or private, and add an optional description. Then click on the "Create repository" button.
+
+Open a terminal or command prompt on your local machine and navigate to the root directory of your Angular application.
+
+Initialize a new Git repository using the following command:
+
+csharp
+Copy code
+git init
+Add the files in your project to the Git repository by running the command:
+csharp
+Copy code
+git add .
+Commit the changes using the following command:
+sql
+Copy code
+git commit -m "Initial commit"
+Add the remote repository URL to your local repository by running the command:
+csharp
+Copy code
+git remote add origin <repository-url>
+Replace <repository-url> with the URL of the repository you created on GitHub. It should be something like https://github.com/your-username/your-repo.git.
+
+Push the code to the GitHub repository:
+perl
+Copy code
+git push -u origin master
+You will be prompted to enter your GitHub username and password.
