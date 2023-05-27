@@ -1,0 +1,21 @@
+Download git bash
+sign in github
+create repository
+open gitbash in directory you want to push folder files
+git init
+git add --a
+git commit -m "first commit"
+git branch -M main
+git remote add origin githublink.git
+git push -u origin main
+
+GO to setting>DeveloperSetting>personal access tokens>Tokens(classic)>generate new token>generate new token classic>
+
+note-wadpractical>select all boxes in scope>generate token>copy token 
+
+git push -u origin master
+git push -u origin main>press cancel>enter username and password(token) in gitbash terminal
+
+git add --a
+git commit -m "first commit"
+git push -u origin main

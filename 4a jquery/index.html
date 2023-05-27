@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--from jquery mobile cdn-->    
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Jquery</title>
+</head>
+<body>
+
+    <!-- index/home.html-->
+    <div data-role="page" id="home">
+        <!-- /navbar -->
+        <div data-role="header">
+            <p>This is Header Section</p>
+        </div>
+        <div data-role="navbar">
+            <p>This is Navbar Section</p>
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+
+            </ul>
+        </div>
+        <div data-role="content">
+            <p>this is home page</p>
+        </div>
+        <div data-role="footer">
+            <p>This is Footer Section</p>
+            <center>
+                <a href="#home">Home</a>
+                <a href="#news">news</a>
+                <a href="#contact">contact</a>
+                <a href="#about">about</a>
+            </center>
+        </div>
+        
+    </div>
+    <!-- news.html-->
+    <div data-role="page" id="news">
+        <!-- /navbar -->
+        <div data-role="navbar">
+
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#news" class="ui-btn-active">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+
+            </ul>
+        </div>
+        <div data-role="content">
+            <p>This is news Page</p>
+            <div class="row">
+                <img src="1.jpg" alt="1">
+            </div>
+        </div>
+
+
+    </div>
+    <!-- contact.html-->
+    <div data-role="page" id="contact">
+        <!-- /navbar -->
+        <div data-role="navbar">
+
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+                <li><a href="#about">About</a></li>
+
+            </ul>
+        </div>
+        <div data-role="content">
+            <p>This is contact Page</p>
+        </div>
+
+
+
+    </div>
+    <!-- about.html-->
+    <div data-role="page" id="about">
+        <!-- /navbar -->
+        <div data-role="navbar">
+
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="ui-btn-active">About</a></li>
+
+            </ul>
+        </div>
+        <div data-role="content">
+            <p>This is about Page</p>
+        </div>
+
+
+    </div>
+</body>
+</html>

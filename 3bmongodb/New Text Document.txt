@@ -1,0 +1,14 @@
+install mongodb compass
+install postman
+
+npm init
+create index.js
+
+mongodbcompass>connect>show dbs>use student>db.createCollection('profile')>db.profile.insertOne(name:"prathamesh",email:"prathamesh@gmail.com",city:"sangamner")>find button>visualstudio>create file mongodb.js> npm i mongodb>npm i express>
+
+run code by node index.js
+postman>enter url>localhost:3000/>send>
+postman>post>body>raw>json>{ "name":"valwani","email":"valwani@gmail.com","city":"pune"}
+node index.js
+postman>put>localhost:3000/prathamesh>{"name":"valwani","email":"valwani@gmail.com","city":"mumbai"}>send
+postman>delete>localhost:3000/prathamesh>send

@@ -1,0 +1,6 @@
+npm init
+npm install express --save
+copy html file from 1st practical
+
+to start execution
+node index.js

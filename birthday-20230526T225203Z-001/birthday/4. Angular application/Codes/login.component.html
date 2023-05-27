@@ -1,0 +1,30 @@
+
+
+<div class="container">
+    <div class="card">
+        <h1>Student Login</h1>
+        <form #myLogin="ngForm"  (ngSubmit)="doLogin(myLogin.value)">
+           
+        <p>
+            <mat-form-field class="field" appearance="outline">
+                <mat-label>Email</mat-label>
+                <input required type="email" name="email" [(ngModel)]="data.email" matInput placeholder="Enter here">
+            </mat-form-field>
+        </p>
+        
+        <p>
+            <mat-form-field class="field" appearance="outline">
+                <mat-label>Password</mat-label>
+                <input required type="text" name="password" [(ngModel)]="data.password" matInput placeholder="Enter here">
+            </mat-form-field>
+        </p>
+        <div class="send">
+            <button type="submit" mat-raised-button color="primary">Register</button>
+            <button type="reset" mat-raised-button color="accent">Reset</button>
+        </div>
+        <p>{{data|json}}</p>
+        </form>
+
+    </div>
+    
+</div>
